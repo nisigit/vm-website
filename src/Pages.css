@@ -1,0 +1,186 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.pdf-link {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.pdf-link:hover {
+	color: #4685cb;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 50px;
+	padding: 0%;
+	min-height: 70vh;
+}
+
+.about-container {
+	width: 100%;
+	min-height: 100vh;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.page-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+}
+
+.main-head {
+	font-size: 4rem;
+	margin-top: 2rem;
+}
+
+.main-head-follow {
+	margin: 1rem 0rem;
+	font-size: 1.2rem;
+	text-align: left;
+	align-self: flex-start;
+}
+
+.home-info-par,
+.premium-features {
+	align-self: center;
+	width: 90%;
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: 2rem;
+	margin: 20px 0px;
+}
+
+.premium-features {
+	margin: 10px 0px;
+	line-height: 2rem;
+	text-align: left;
+}
+
+.premium-features li {
+	margin: 5px 0px;
+}
+
+.premium-features-list {
+	width: 100%;
+	text-align: left;
+}
+
+#homeParagraphDiv .home-info-par {
+	font-size: 1.8rem;
+	line-height: 2.7rem;
+}
+
+.info-div {
+	margin: 15px 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 0%;
+}
+
+.info-div-head {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.info-div-subhead {
+	font-weight: lighter;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.info-div-par {
+	line-height: 1.8rem;
+	font-size: 1rem;
+}
+
+.info-div-par strong {
+	font-weight: 900;
+}
+
+.accordion-container {
+	width: 70%;
+	margin: 40px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+	.container {
+		padding: 0px;
+	}
+
+	.main-head {
+		font-size: 2.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.main-head-follow {
+		font-size: 1rem;
+	}
+
+	.accordion-container {
+		width: 95%;
+	}
+
+	.info-div {
+		margin: 10px 0px;
+	}
+
+	.info-div-head {
+		font-size: 1.2rem;
+	}
+
+	.info-div-subhead {
+		font-size: 1rem;
+	}
+
+	.home-info-par {
+		width: 100%;
+		padding: 0px 20px;
+		font-size: 1.2rem;
+	}
+
+	.home-info-par li {
+		font-size: 1.2rem;
+		text-align: left;
+	}
+
+	#homeParagraphDiv .home-info-par {
+		font-size: 1.5rem;
+		line-height: 2.3rem;
+	}
+
+	.premium-features {
+		font-size: 1rem;
+		text-align: center;
+		font-size: 1rem;
+		line-height: 1.8rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.main-head {
+		font-size: 2rem;
+		text-align: center;
+		margin: 0;
+	}
+
+	#homeParagraphDiv .home-info-par {
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+	}
+}
